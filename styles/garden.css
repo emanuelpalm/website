@@ -21,6 +21,65 @@
 	src: url("../fonts/CrimsonPro-RegularItalic.ttf") format("truetype");
 }
 
+html {
+	height: 100%;
+}
+
 body {
+	display: flex;
+	flex-direction: column;
 	font-family: "Crimson Pro", "Crimson Pro Fallback", sans-serif;
+	margin: 0;
+	height: 100%;
+}
+
+body > menu {
+	color: white;
+	height: 42pt;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+}
+
+body > section {
+	padding: 42pt 24pt 24pt 24pt;
+	flex-grow: 1;
+}
+
+body > footer {
+	background-color: #2e2b27;
+	color: #897d72;
+	margin: 0;
+	padding: 24pt;
+}
+
+h1 {
+	font-size: 42pt;
+	margin: 0 0 10.5pt 0;
+}
+
+h2 {
+	font-size: 32pt;
+	margin: 0 0 8pt 0;
+}
+
+h3 {
+	font-size: 24pt;
+	margin: 0 0 6pt 0;
+}
+
+h4 {
+	font-size: 18pt;
+	margin: 0 0 4.5pt 0;
+}
+
+header > h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 16pt;
+	margin: 0 0 8pt 0;
+	text-align: justify;
 }
