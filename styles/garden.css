@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro:400,400i,700&display=swap');
+
+@font-face {
+	font-family: "Crimson Pro Fallback";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/CrimsonPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Crimson Pro Fallback";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/CrimsonPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Crimson Pro Fallback";
+	font-style: italic;
+	font-weight: 400;
+	src: url("../fonts/CrimsonPro-RegularItalic.ttf") format("truetype");
+}
+
+body {
+	font-family: "Crimson Pro", "Crimson Pro Fallback", sans-serif;
+}
