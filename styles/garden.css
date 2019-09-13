@@ -22,64 +22,75 @@
 }
 
 html {
+	font-family: "Crimson Pro", "Crimson Pro Fallback", sans-serif;
 	height: 100%;
 }
 
 body {
 	display: flex;
 	flex-direction: column;
-	font-family: "Crimson Pro", "Crimson Pro Fallback", sans-serif;
+	font-size: 1.2em;
+	line-height: 1.2;
 	margin: 0;
 	height: 100%;
 }
 
-body > menu {
-	color: white;
-	height: 42pt;
-	margin: 0;
-	padding: 0;
+body > header {
+	padding: 2rem;
 	position: fixed;
-	width: 100%;
 }
 
 body > section {
-	padding: 42pt 24pt 24pt 24pt;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 	flex-grow: 1;
+	padding: 8rem 2rem;
+}
+
+body > section > article {
+	max-width: 600px;
+}
+
+body > section > article > h1 {
+	text-align: center;
+}
+
+body > section > article > p.lead {
+	font-size: 1.15em;
+	font-style: italic;
+	line-height: 1.25em;
+	margin: 1rem 0;
 }
 
 body > footer {
 	background-color: #2e2b27;
 	color: #897d72;
 	margin: 0;
-	padding: 24pt;
+	padding: 2rem;
 }
 
 h1 {
-	font-size: 42pt;
-	margin: 0 0 10.5pt 0;
+	font-size: 2.5em;
+	margin: 1.5rem 0 1.25rem 0;
 }
 
 h2 {
-	font-size: 32pt;
-	margin: 0 0 8pt 0;
+	font-size: 2em;
+	margin: 1rem 0 0.75rem 0;
 }
 
 h3 {
-	font-size: 24pt;
-	margin: 0 0 6pt 0;
+	font-size: 1.5em;
+	margin: 1rem 0 0.75rem 0;
 }
 
 h4 {
-	font-size: 18pt;
-	margin: 0 0 4.5pt 0;
-}
-
-header > h1 {
-	text-align: center;
+	font-size: 1.25em;
+	margin: 1rem 0 0.75rem 0;
 }
 
 p {
-	font-size: 16pt;
-	margin: 0 0 8pt 0;
+	margin: 0.5rem 0;
 	text-align: justify;
 }
