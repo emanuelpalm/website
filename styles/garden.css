@@ -63,6 +63,13 @@ body > section > article > p.lead {
 	margin: 1rem 0;
 }
 
+body > section > article > hr {
+	background: no-repeat center bottom/contain url("../images/fleuron.svg");
+	border: none;
+	height: 1.6rem;
+	margin: 1rem;
+}
+
 body > footer {
 	background-color: #2e2b27;
 	color: #897d72;
