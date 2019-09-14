@@ -49,7 +49,7 @@ body > section {
 }
 
 body > section > article {
-	max-width: 600px;
+	max-width: 37rem;
 }
 
 body > section > article > h1 {
