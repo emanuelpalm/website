@@ -64,10 +64,16 @@ body > section > article > p.lead {
 }
 
 body > section > article > hr {
-	background: no-repeat center bottom/contain url("../images/fleuron.svg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
 	border: none;
 	height: 1.6rem;
 	margin: 1rem;
+}
+
+body > section > article > hr.dawn {
+	background-image: url("../images/fleuron-dawn.svg");
 }
 
 body > footer {
