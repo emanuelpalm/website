@@ -27,6 +27,7 @@ html {
 }
 
 body {
+	color: #222;
 	display: flex;
 	flex-direction: column;
 	font-size: 1.2em;
@@ -36,34 +37,50 @@ body {
 }
 
 body > header {
-	padding: 2rem;
-	position: fixed;
+	border-bottom: 0.1rem solid #56563C;
+	padding: 1.6rem;
 }
 
-body > section {
+body > header > nav,
+body > footer > nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 48rem;
+}
+
+body > header > nav > a,
+body > footer > nav > a {
+	margin: 0 0.5em;
+	padding-bottom: 0.2em;
+	white-space: nowrap;
+}
+
+body > main {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
-	padding: 8rem 2rem;
+	padding: 5rem 2rem;
 }
 
-body > section > article {
+body > main > article {
 	max-width: 37rem;
 }
 
-body > section > article > h1 {
+body > main > article > h1 {
 	text-align: center;
 }
 
-body > section > article > p.lead {
+body > main > article > p.lead {
 	font-size: 1.15em;
 	font-style: italic;
 	line-height: 1.25em;
 	margin: 1rem 0;
 }
 
-body > section > article > hr {
+body > main > article > hr {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -72,15 +89,13 @@ body > section > article > hr {
 	margin: 1rem;
 }
 
-body > section > article > hr.dawn {
+body > main > article > hr.dawn {
 	background-image: url("../images/fleuron-dawn.svg");
 }
 
 body > footer {
-	background-color: #2e2b27;
-	color: #897d72;
-	margin: 0;
-	padding: 2rem;
+	border-top: 0.1rem solid #56563C;
+	padding: 1.6rem;
 }
 
 h1 {
