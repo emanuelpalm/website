@@ -37,11 +37,26 @@ body {
 }
 
 body > header {
-	border-bottom: 0.1rem solid #56563C;
-	padding: 1.6rem;
+	border: 0.1rem solid #56563C;
+	left: 0;
+	position: absolute;
+	top: 0;
 }
 
-body > header > nav,
+body > header > nav {
+	background-image: url("../images/nav.svg");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 3rem;
+	display: flex;
+	flex-direction: column;
+	padding: 1.1rem 1.6rem 1.1rem 4.2rem;
+}
+
+body > header > nav > a {
+	margin: 0.5rem 0;
+}
+
 body > footer > nav {
 	display: flex;
 	flex-direction: row;
@@ -50,7 +65,6 @@ body > footer > nav {
 	max-width: 48rem;
 }
 
-body > header > nav > a,
 body > footer > nav > a {
 	margin: 0 0.5em;
 	padding-bottom: 0.2em;
