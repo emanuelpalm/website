@@ -37,51 +37,30 @@ body {
 }
 
 body > header {
-	bottom: 0;
+	background-color: #444;
+	border-bottom: 0.2rem solid #777;
 	left: 0;
-	min-height: 2.7rem;
-	position: fixed;
+	position: absolute;
+	right: 0;
 	top: 0;
-	transform: translateX(-100%) translateX(5.4rem);
-	z-index: 1;
 }
 
 body > header > nav {
-	background-image: url("../images/nav.svg");
-	background-position: top 1.2rem right 1.4rem;
-	background-repeat: no-repeat;
-	background-size: 2.7rem;
-	display: flex;
-	flex-direction: column;
-	padding-right: 4.3rem;
-}
-
-body > header > nav > a {
-	cursor: pointer;
-	margin: 1.6rem 1.6rem 0 1.6rem;
-}
-
-body > header > nav > a:last-child {
-	margin-bottom: 1.6rem;
-}
-
-body > footer {
-	background-color: #fff;
-	z-index: 1;
-}
-
-body > footer > nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 0 auto;
-	max-width: 48rem;
+	max-width: 37rem;
 }
 
-body > footer > nav > a {
-	margin: 0 0.5em;
-	padding-bottom: 0.2em;
-	white-space: nowrap;
+body > header > nav > a {
+	color: #ffffff99;
+	cursor: pointer;
+	line-height: 3rem;
+}
+
+body > header > nav > a:hover {
+	color: #ffffffff;
 }
 
 body > main {
@@ -120,9 +99,34 @@ body > main > article > hr.dawn {
 	background-image: url("../images/fleuron-dawn.svg");
 }
 
+body > main > article > footer {
+	font-size: 0.8em;
+	margin-top: 3rem;
+}
+
+body > main > article > footer > ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body > main > article > footer > ul > li {
+	background-position: left center;
+	background-repeat: no-repeat;
+	line-height: 1.7rem;
+	padding-left: 2rem;
+}
+
+body > main > article > footer > ul > li.author {
+	background-image: url("../images/icon-author.svg");
+}
+
 body > footer {
-	border-top: 0.1rem solid #56563C;
-	padding: 1.6rem;
+	background-color: #333;
+	border-top: 0.2rem solid #444;
+	color: #ffffffaa;
+	line-height: 3rem;
+	text-align: center;
 }
 
 h1 {
