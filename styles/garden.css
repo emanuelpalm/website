@@ -54,13 +54,33 @@ body > header > nav {
 }
 
 body > header > nav > a {
-	color: #ffffff99;
+	background-position: left center;
+	background-repeat: no-repeat;
+	color: #ffffff;
 	cursor: pointer;
 	line-height: 3rem;
+	opacity: 0.5;
+	padding-left: 2rem;
 }
 
 body > header > nav > a:hover {
-	color: #ffffffff;
+	opacity: 1;
+}
+
+body > header > nav > a.persona {
+	background-image: url("../images/icon-persona.svg");
+}
+
+body > header > nav > a.technology {
+	background-image: url("../images/icon-technology.svg");
+}
+
+body > header > nav > a.sociology {
+	background-image: url("../images/icon-sociology.svg");
+}
+
+body > header > nav > a.theology {
+	background-image: url("../images/icon-theology.svg");
 }
 
 body > main {

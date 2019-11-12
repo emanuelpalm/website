@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30" height="30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path id="p1" d="m15 5v4.896c0.4805-0.0035 1 0.1035 1 0.1035l-0.5-5h-0.5zm5.066 1.225-2.932 4.08s0.4506 0.1459 0.916 0.4102c0.4179 0.2372 0.8145 0.5898 0.8145 0.5898l2.068-4.58-0.8672-0.5zm4.209 3.842-4.58 2.068s0.3189 0.3529 0.5898 0.8145c0.2433 0.4144 0.4102 0.916 0.4102 0.916l4.08-2.932-0.5-0.8672zm-9.275 1.934v4h4a4 4 0 0 0-4-4zm6 3s0.09962 0.4648 0.1035 1h4.896v-0.5l-5-0.5z" fill="#fff"/>
+	<use transform="rotate(90,15,16)" xlink:href="#p1"/>
+	<use transform="rotate(180,15,16)" xlink:href="#p1"/>
+	<use transform="rotate(270,15,16)" xlink:href="#p1"/>
+</svg>
