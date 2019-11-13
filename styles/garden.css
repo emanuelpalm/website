@@ -40,6 +40,8 @@ body > header {
 	background-color: #444;
 	border-bottom: 0.2rem solid #777;
 	left: 0;
+	min-width: 320px;
+	padding: 0 2rem;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -88,6 +90,7 @@ body > main {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
+	min-width: 320px;
 	padding: 5rem 2rem;
 }
 
@@ -172,4 +175,21 @@ h4 {
 p {
 	margin: 0.5rem 0;
 	text-align: justify;
+}
+
+@media only screen and (max-width: 560px) {
+
+	body > header > nav > a {
+		background-position: center center;
+		color: transparent;
+		font-size: 0;
+		padding: 0;
+		width: 3rem;
+	}
+
+	body > main > article > p.lead {
+		font-size: inherit;
+		line-height: inherit;
+	}
+
 }
