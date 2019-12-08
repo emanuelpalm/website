@@ -72,10 +72,6 @@ body > header > nav > a:hover {
 	opacity: 1;
 }
 
-body > header > nav > a.persona {
-	background-image: url("../images/icon-persona.svg");
-}
-
 body > header > nav > a.technology {
 	background-image: url("../images/icon-technology.svg");
 }
@@ -86,6 +82,10 @@ body > header > nav > a.sociology {
 
 body > header > nav > a.theology {
 	background-image: url("../images/icon-theology.svg");
+}
+
+body > header > nav > a.persona {
+	background-image: url("../images/icon-persona.svg");
 }
 
 body > main {
@@ -120,31 +120,48 @@ body > main > article > hr {
 	margin: 1.375rem 0 1rem 0;
 }
 
-body > main > article > hr.dawn {
-	background-image: url("../images/fleuron-dawn.svg");
+body > main > article > hr.lead {
+	background-image: url("../images/fleuron-lead.svg");
+}
+
+body > main > article > hr.end {
+	background-image: url("../images/fleuron-end.svg");
 }
 
 body > main > article > footer {
 	background-color: #ddd;
 	font-size: 1rem;
 	margin-top: 3rem;
-	padding: 1rem;
 }
 
-body > main > article > footer > div {
-	font-size: 0.75rem;
+body > main > article > footer > ul.timeline {
+	list-style: none;
+	margin: 0 1rem 0 1.5rem;
+	padding: 1rem 0;
 }
 
-body > main > article > footer > a {
-	background-position: left center;
+body > main > article > footer > ul.timeline > li {
+	border-left: #aaa solid 0.25rem;
+	padding: 0 0 2rem 1.5rem;
+}
+
+body > main > article > footer > ul.timeline > li:last-child {
+	padding-bottom: 0;
+}
+
+body > main > article > footer > ul.timeline > li > a {
+	display: block;
+}
+
+body > main > article > footer > ul.timeline > li > span.date {
+	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: 2rem 2rem;
-	font-size: 1rem;
-	padding: 0 0 1rem 2rem;
-}
-
-body > main > article > footer > a.authored {
-	background-image: url("../images/icon-author.svg");
+	display: block;
+	font-size: 0.75rem;
+	line-height: 2rem;
+	margin-left: -2.5rem;
+	padding-left: 2.5rem;
 }
 
 body > footer {

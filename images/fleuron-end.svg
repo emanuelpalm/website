@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path id="a" d="m16 1v2.271l2.15 2.121h-2.15v1.607h9v9h1.607v-2.082l2.121 2.082h2.271l-4.393-4.393v-6.215h-6.215l-4.393-4.393z" fill="#222"/>
+ <use transform="rotate(-90,16,16)" xlink:href="#a"/>
+ <use transform="rotate(180 16 16)" xlink:href="#a"/>
+ <use transform="rotate(90,16,16)" xlink:href="#a"/>
+</svg>
