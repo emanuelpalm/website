@@ -28,6 +28,7 @@ html {
 }
 
 body {
+	background-color: #fff;
 	color: #222;
 	display: flex;
 	flex-direction: column;
@@ -38,8 +39,8 @@ body {
 }
 
 body > header {
-	background-color: #444;
-	border-bottom: 0.25rem solid #777;
+	background-color: #3a4044;
+	border-bottom: 0.25rem solid #9cabb7;
 	left: 0;
 	min-width: 20rem;
 	position: absolute;
@@ -50,25 +51,29 @@ body > header {
 body > header > nav {
 	display: flex;
 	flex-direction: row;
+	height: 3rem;
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 36rem;
-	padding: 0 2rem;
 }
 
 body > header > nav > a {
-	background-position: left center;
+	background-position: left 0 top 0.875rem;
 	background-repeat: no-repeat;
-	background-size: 2rem 2rem;
-	color: #ffffff;
+	background-size: 1.25rem 1.25rem;
+	color: #fff;
 	cursor: pointer;
-	line-height: 3rem;
-	margin-left: -0.5rem;
+	line-height: 2rem;
 	opacity: 0.667;
-	padding-left: 2rem;
+	padding: 0.5rem 0 0.5rem 2.2rem;
 }
 
 body > header > nav > a:hover {
+	opacity: 1;
+}
+
+body > header > nav > a.selected {
+	border-bottom: 0.25rem solid #9cabb7;
 	opacity: 1;
 }
 
@@ -165,8 +170,8 @@ body > main > article > footer > ul.timeline > li > span.date {
 }
 
 body > footer {
-	background-color: #333;
-	border-top: 0.2rem solid #444;
+	background-color: #3a4044;
+	border-top: 0.2rem solid #9cabb7;
 	color: #ffffffaa;
 	line-height: 3rem;
 	text-align: center;
@@ -193,7 +198,7 @@ h4 {
 }
 
 p {
-	margin: 0.5rem 0;
+	margin: 0.75rem 0;
 	text-align: justify;
 }
 
@@ -211,6 +216,38 @@ p {
 	body > main > article > p.lead {
 		font-size: inherit;
 		line-height: inherit;
+	}
+
+	h1 {
+		font-size: 2em;
+		margin: 1.25rem 0 0.75rem 0;
+	}
+
+	h2 {
+		font-size: 1.4em;
+		margin: 1rem 0 0.5rem 0;
+	}
+
+	h3 {
+		font-size: 1.25em;
+		margin: 1rem 0 0.5rem 0;
+	}
+
+	h4 {
+		font-size: 1.125em;
+		margin: 1rem 0 0.25rem 0;
+	}
+
+}
+
+@media only screen and (max-width: 22.5rem) {
+
+	html {
+		line-height: 1.2;
+	}
+
+	body > main {
+		padding: 3.333rem 1.333rem;
 	}
 
 }
