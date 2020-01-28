@@ -55,6 +55,7 @@ body > header > nav {
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 36rem;
+	padding: 0 2rem;
 }
 
 body > header > nav > a {
@@ -65,7 +66,7 @@ body > header > nav > a {
 	cursor: pointer;
 	line-height: 2rem;
 	opacity: 0.667;
-	padding: 0.5rem 0 0.5rem 2.2rem;
+	padding: 0.5rem 0 0.5rem 2rem;
 }
 
 body > header > nav > a:hover {
@@ -206,9 +207,9 @@ p {
 
 	body > header > nav > a {
 		background-position: center center;
+		background-size: 1.5rem 1.5rem;
 		color: transparent;
 		font-size: 0;
-		margin: 0 -1rem;
 		padding: 0;
 		width: 3rem;
 	}
@@ -244,6 +245,14 @@ p {
 
 	html {
 		line-height: 1.2;
+	}
+
+	body > header > nav {
+		padding: 0 1.333rem;
+	}
+
+	body > header > nav > a {
+		background-size: 1.25rem 1.25rem;
 	}
 
 	body > main {
