@@ -73,19 +73,19 @@ body > header > nav > a:hover {
 }
 
 body > header > nav > a.technology {
-	background-image: url("../images/icon-technology.svg");
+	background-image: url("../images/garden/icon-technology.svg");
 }
 
 body > header > nav > a.sociology {
-	background-image: url("../images/icon-sociology.svg");
+	background-image: url("../images/garden/icon-sociology.svg");
 }
 
 body > header > nav > a.theology {
-	background-image: url("../images/icon-theology.svg");
+	background-image: url("../images/garden/icon-theology.svg");
 }
 
 body > header > nav > a.persona {
-	background-image: url("../images/icon-persona.svg");
+	background-image: url("../images/garden/icon-persona.svg");
 }
 
 body > main {
@@ -121,11 +121,11 @@ body > main > article > hr {
 }
 
 body > main > article > hr.lead {
-	background-image: url("../images/fleuron-lead.svg");
+	background-image: url("../images/garden/fleuron-lead.svg");
 }
 
 body > main > article > hr.end {
-	background-image: url("../images/fleuron-end.svg");
+	background-image: url("../images/garden/fleuron-end.svg");
 }
 
 body > main > article > footer {
