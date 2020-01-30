@@ -141,6 +141,7 @@ body > main > article > footer {
 }
 
 body > main > article > footer > table th {
+	color: #3a4044;
 	width: 7rem;
 }
 
